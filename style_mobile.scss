@@ -12,27 +12,31 @@ html {
     height: 100%;
 
     h1 {
-      font-size: 45vw;
+      font-size: 132px;
     }
 
     p {
-      font-size: 6vw;
-      margin-top: 50%;
+      font-size: 18px;
+      margin-top: -20px;
     }
   }
 }
 
 html h2, body h2 {
-  margin-bottom: 75px;
-  font-size: 2.8em;
+  margin-bottom: 50px;
+  font-size: 32px;
 }
 
 #yt-channel, .videos, .downloads, .contact {
-  padding: 75px 0;
+  padding: 50px 0;
 }
 
 #yt-channel .wrapper .text p {
-  font-size: 1.6em;
+  font-size: 22px;
+
+  img {
+    height: 31px;
+  }
 }
 
 #yt-channel .wrapper .pp {
@@ -48,8 +52,19 @@ html h2, body h2 {
   }
 }
 
-
-
 .myButton {
-  font-size: 1.1em;
+  font-size: 16px;
+}
+
+.footer-basic-centered .footer-links a {
+  font-size: 12px;
+}
+
+
+/* Media Queries for font-sizes */
+@media only screen and (min-width: 960px) and (max-width: 1280px) {
+  .videos .vids .iframe-container {
+    max-width: 720px;
+  }
+
 }

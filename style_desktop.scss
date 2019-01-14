@@ -16,15 +16,15 @@ html, body {
 
   h2 {
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 150px;
-    font-size: 3.7em;
+    margin-bottom: 100px;
+    font-size: 50px;
     text-align: center;
   }
 
   p {
     font-family: 'Lato', sans-serif;
 		color: #444444;
-		font-size: 16px;
+		font-size: 28px;
   }
 }
 
@@ -116,7 +116,7 @@ nav {
 
 /* YOUTUBE CHANNEL*/
 #yt-channel {
-  padding: 150px 0;
+  padding: 100px 0;
   text-align: center;
 
   h2 {
@@ -139,12 +139,11 @@ nav {
       padding-left: 18px;
 
       p {
-        font-size: 2em;
         text-align: left;
 
         img {
           position: absolute;
-          height: 44px;
+          height: 38px;
         }
       }
     }
@@ -153,17 +152,17 @@ nav {
 
 /* VIDEOS */
 .videos {
-  padding: 150px 0;
+  padding: 100px 0;
   background-image: url("assets/bg2.jpg");
 
   .vids {
 
     .iframe-container {
-      max-width: 1000px;
+      max-width: 900px;
       margin: 0 auto;
 
       .iframe-wrapper {
-        padding: 0 20px 50px 20px;
+        padding: 0 20px 65px 20px;
 
         .iframe-responsive {
           position:relative;
@@ -187,13 +186,13 @@ nav {
 
 /* DOWNLOADS */
 .downloads {
-  padding: 150px 0;
+  padding: 100px 0;
   text-align: center;
 }
 
 /*CONTACT*/
 .contact {
-	padding: 150px 0;
+	padding: 100px 0;
 	text-align: center;
 	background-image: url("assets/bg3.jpg");
 	color: white;
@@ -230,6 +229,7 @@ nav {
 	display:inline-block;
 	text-decoration: none;
 	color: inherit;
+  font-size: 16px;
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
@@ -251,8 +251,6 @@ nav {
 		line-height: 1.8;
 	}
 }
-
-
 
 /* OTHER */
 /*
