@@ -16,7 +16,7 @@ $(document).ready(function() {
     });
   }
 
-  if ( $(window).width() > 1280) {
+  if ( $(window).width() > 960) {
   // Scroll animation with offset for anchor points
   $('.nav-a').on('click',function(e){
     e.preventDefault();
