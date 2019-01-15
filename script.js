@@ -4,7 +4,7 @@ $(document).ready(function() {
   ScrollOut({once:true});
 
   // Scroll animation with offset for anchor points
-  if ( $(window).width() < 1280) {
+  if ( $(window).width() < 960) {
     $('.nav-a').on('click',function(e){
       e.preventDefault();
       var target = $($(this).attr('href')),
